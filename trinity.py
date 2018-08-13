@@ -1,4 +1,4 @@
-from tkinter import*
+from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
 from PIL import Image,ImageTk
@@ -13,7 +13,7 @@ class menu:
     def __init__(self):
         self.root=Tk()
         self.root.title('Menu')
-        self.root.state('zoomed')
+       # self.root.state('zoomed')
         conn=sqlite3.connect('test.db')
         conn.execute('''create table if not exists book_info
         (ID VARCHAR PRIMARY KEY NOT NULL,
@@ -461,7 +461,7 @@ def Database():
     cursor.execute("CREATE TABLE IF NOT EXISTS `login` (mem_id INTEGER NOT NULL PRIMARY KEY  AUTOINCREMENT, username TEXT, password TEXT)")
     cursor.execute("SELECT * FROM `login` WHERE `username` = 'admin' AND `password` = 'admin'")
     if cursor.fetchone() is None:
-        cursor.execute("INSERT INTO `login` (username, password) VALUES('Niraj', 'root')")
+        cursor.execute("INSERT INTO `login` (username, password) VALUES('shubham', 'root')")
         conn.commit()
 
 def Login(event=None):

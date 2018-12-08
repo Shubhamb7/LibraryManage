@@ -3,21 +3,18 @@
 * steps to use
   * run the .py file
   * username = shubham, password = root
-  
-#Login Screen
-
+ 
+* **Screenshots** 
+**Login Screen**
 ![](scrshots/1.jpg)
 
-#Home Screen
-
+**Home Screen**
 ![](scrshots/2.jpg)
 
-#Book Data
-
+**Book Data**
 ![](scrshots/3.jpg)
 ![](scrshots/4.jpg)
 
-#Student Data
-
+**Student Data**
 ![](scrshots/5.jpg)
 ![](scrshots/6.jpg)

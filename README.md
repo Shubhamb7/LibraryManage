@@ -3,6 +3,10 @@
 * steps to use
   * run the .py file
   * username = shubham, password = root
+  
+* **Before you start :** 
+ * `pip install python-tk` download tkinter modules
+ * `pip install pillow`
  
 * **Screenshots** 
 

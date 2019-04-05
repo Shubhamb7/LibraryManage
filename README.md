@@ -5,8 +5,8 @@
   * username = shubham, password = root
   
 * **Before you start :** 
- * `pip install python-tk` download tkinter modules
- * `pip install pillow`
+  * `pip install python-tk` download tkinter modules
+  * `pip install pillow`
  
 * **Screenshots** 
 
